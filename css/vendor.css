@@ -25,12 +25,7 @@
   box-sizing: border-box;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -ms-touch-action: pan-y;
-  touch-action: pan-y;
+
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -54,10 +49,7 @@
 .slick-slider .slick-track,
 .slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+
 }
 
 .slick-track {
@@ -144,8 +136,7 @@
   outline: none !important;
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
+
 }
 
 .lity.lity-opened {
@@ -158,8 +149,7 @@
 
 .lity * {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+
 }
 
 .lity-wrap {
@@ -193,8 +183,7 @@
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
+
   font-display: swap;
 }
 
@@ -218,20 +207,15 @@
   z-index: 9993;
   width: 100%;
   -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
+
   -webkit-transition: -webkit-transform 0.3s ease;
-  -o-transition: -o-transform 0.3s ease;
-  transition: transform 0.3s ease;
+
 }
 
 .lity-loading .lity-content,
 .lity-closed .lity-content {
   -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  transform: scale(0.8);
+
 }
 
 .lity-content:after {
@@ -270,7 +254,7 @@
   background: transparent;
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -292,12 +276,12 @@
 
 .lity-close::before {
   -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+
 }
 
 .lity-close::after {
   -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+
 }
 
 .lity-close::-moz-focus-inner {
@@ -321,7 +305,7 @@
   background: transparent;
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -360,7 +344,7 @@
   overflow: auto;
   pointer-events: auto;
   -webkit-transform: translateZ(0);
-  transform: translateZ(0);
+
   -webkit-overflow-scrolling: touch;
 }
 
