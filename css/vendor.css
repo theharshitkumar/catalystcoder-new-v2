@@ -1,14 +1,14 @@
-/* =================================================================== 
+/* ===================================================================
  *
  *  Typerite Vendor/Third Party CSS
- *  Template Ver. 1.0.0 
+ *  Template Ver. 1.0.0
  *  05-20-2019
  *  ------------------------------------------------------------------
  *
  *  TOC:
  *  # Slick Slider
  *  # lity
- *  # PrettyPrint GitHub Theme 
+ *  # PrettyPrint GitHub Theme
  *
  * =================================================================== */
 
@@ -129,7 +129,7 @@
 /* ===================================================================
  * # lity - v1.6.6 - 2016-04-22
  *   http://sorgalla.com/lity/
- *   Copyright (c) 2016 Jan Sorgalla; Licensed MIT 
+ *   Copyright (c) 2016 Jan Sorgalla; Licensed MIT
  * ------------------------------------------------------------------- */
 .lity {
   z-index: 9990;
@@ -195,6 +195,7 @@
   -webkit-transition: opacity 0.3s ease;
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
+  font-display: swap;
 }
 
 .lity-loading .lity-loader {
@@ -274,6 +275,7 @@
   text-shadow: none;
   color: transparent;
   border-radius: 50%;
+  font-display: swap;
 }
 
 .lity-close::before,
@@ -323,6 +325,7 @@
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
+  font-display: swap;
 }
 
 .lity-close:hover::before,
@@ -378,8 +381,8 @@
 
 
 /* ===================================================================
- * # PrettyPrint GitHub Theme 
- *   
+ * # PrettyPrint GitHub Theme
+ *
  * ------------------------------------------------------------------- */
 .prettyprint {
   background: #efefef;
@@ -387,6 +390,7 @@
   font-size: 13px;
   line-height: 1.538;
   border: none;
+  font-display: swap;
 }
 
 .pln {

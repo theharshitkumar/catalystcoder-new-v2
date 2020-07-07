@@ -11,13 +11,13 @@
 
     .fa-instagram:before {
       content: "\f16d"; }
+
       .fa-twitter:before {
         content: "\f099"; }
 
-
-
   .fa-youtube:before {
     content: "\f167"; }
+
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);

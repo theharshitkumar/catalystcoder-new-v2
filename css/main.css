@@ -87,6 +87,7 @@ body {
   color: #000000;
   margin: 0;
   padding: 0;
+  font-display: swap;
 }
 
 body.nav-wrap-is-visible {
@@ -132,6 +133,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000000;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
+  font-display: swap;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
@@ -209,6 +211,7 @@ p.lead {
   line-height: 1.833;
   margin-bottom: 3.6rem;
   color: #000000;
+  font-display: swap;
 }
 
 @media screen and (max-width:1200px) {
@@ -237,12 +240,14 @@ em,
 i {
   font-family: "IBM Plex Sans", sans-serif;
   font-style: italic;
+  font-display: swap;
 }
 
 strong,
 b {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 700;
+  font-display: swap;
 }
 
 small {
@@ -278,6 +283,7 @@ blockquote p {
   font-size: 2.4rem;
   line-height: 1.833;
   color: #000000;
+  font-display: swap;
 }
 
 @media screen and (max-width:500px) {
@@ -293,6 +299,7 @@ blockquote cite {
   font-size: 1.5rem;
   font-style: normal;
   line-height: 1.333;
+  font-display: swap;
 }
 
 blockquote cite:before {
@@ -313,6 +320,7 @@ abbr {
   text-transform: lowercase;
   letter-spacing: 0.05rem;
   color: #7e7e7e;
+  font-display: swap;
 }
 
 var,
@@ -321,6 +329,7 @@ samp,
 code,
 pre {
   font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+  font-display: swap;
 }
 
 pre {
@@ -476,6 +485,7 @@ table {
   max-width: 100%;
   font-family: "IBM Plex Sans", sans-serif;
   border-collapse: collapse;
+  font-display: swap;
 }
 
 th,
@@ -489,6 +499,7 @@ th {
   color: #000000;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 700;
+  font-display: swap;
 }
 
 th:first-child,
@@ -762,6 +773,7 @@ select {
   background: transparent;
   border-bottom: 1px solid #c3c3c3;
   transition: all 0.3s ease-in-out;
+  font-display: swap;
 }
 
 .ss-custom-select {
@@ -834,6 +846,7 @@ legend {
   line-height: 1.714;
   color: #000000;
   display: block;
+  font-display: swap;
 }
 
 input[type="checkbox"],
@@ -846,6 +859,7 @@ label > .label-text {
   margin-left: 1rem;
   font-family: "IBM Plex Sans", sans-serif;
   line-height: inherit;
+  font-display: swap;
 }
 
 label > input[type="checkbox"],
@@ -946,6 +960,7 @@ input[type="button"] {
   -moz-osx-font-smoothing: grayscale;
   background-color: #d3d3d3;
   border: 0.2rem solid #d3d3d3;
+  font-display: swap;
 }
 
 .btn:hover,
@@ -1061,6 +1076,7 @@ input::-moz-focus-inner {
   text-indent: 0;
   background: transparent;
   color: #000000;
+  font-display: swap;
 }
 
 /* line definition style
@@ -1187,6 +1203,7 @@ input::-moz-focus-inner {
   font-weight: 700;
   border: none;
   color: #000000;
+  font-display: swap;
 }
 
 .stats-tabs li a:hover {
@@ -1201,6 +1218,7 @@ input::-moz-focus-inner {
   font-weight: normal;
   font-style: normal;
   color: #7e7e7e;
+  font-display: swap;
 }
 
 /* -------------------------------------------------------------------
@@ -1231,6 +1249,7 @@ input::-moz-focus-inner {
   letter-spacing: 0.2rem;
   font-size: 1.4rem;
   line-height: 2.4rem;
+  font-display: swap;
 }
 
 .skill-bars li .progress {
@@ -1251,6 +1270,7 @@ input::-moz-focus-inner {
   background: #000000;
   padding: 0.8rem 0.8rem;
   border-radius: 3px;
+  font-display: swap;
 }
 
 .skill-bars li .progress span::after {
@@ -1357,6 +1377,7 @@ input::-moz-focus-inner {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.6;
+  font-display: swap;
 }
 
 .alert-box__close {
@@ -1463,6 +1484,7 @@ input::-moz-focus-inner {
   margin: 0.2rem 0.2rem;
   color: #000000;
   transition: all, 0.3s, ease-in-out;
+  font-display: swap;
 }
 
 .pgn__num:hover {
@@ -1775,6 +1797,7 @@ input::-moz-focus-inner {
   transition: all 0.3s;
   -webkit-transform: scale(0.5);
   transform: scale(0.5);
+  font-display: swap;
 }
 
 .masonry .entry__thumb:hover .entry__thumb-link::before {
@@ -1833,6 +1856,7 @@ input::-moz-focus-inner {
   text-transform: uppercase;
   letter-spacing: 1.2px;
   margin-bottom: 3.2rem;
+  font-display: swap;
 }
 
 .masonry .entry__meta span {
@@ -1927,6 +1951,7 @@ input::-moz-focus-inner {
   padding: 8rem 0 0 0;
   margin-top: 0;
   margin-bottom: 3.2rem;
+  font-display: swap;
 }
 
 .format-quote cite,
@@ -1937,6 +1962,7 @@ input::-moz-focus-inner {
   font-style: normal;
   line-height: 1.6;
   color: rgba(0, 0, 0, 0.4);
+  font-display: swap;
 }
 
 .format-quote cite::before,
@@ -2274,6 +2300,7 @@ input::-moz-focus-inner {
   font-family: "Heebo", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  font-display: swap;
 }
 
 .header__nav li {

@@ -113,6 +113,7 @@ kbd,
 samp {
   font-family: monospace, monospace;  /* 1 */
   font-size: 1em;  /* 2 */
+  font-display: swap;
 }
 
 /* Add the correct font size in all browsers. */
