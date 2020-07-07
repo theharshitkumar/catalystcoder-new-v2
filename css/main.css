@@ -79,6 +79,7 @@ body {
 body {
   background: #f6f7f8;
   font-family: "IBM Plex Sans", sans-serif;
+  font-display: swap;
   font-size: 1.9rem;
   font-style: normal;
   font-weight: normal;
