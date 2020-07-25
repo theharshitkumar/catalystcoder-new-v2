@@ -17,7 +17,7 @@
     <link rel="preload" href="https://catalystcoder.netlify.app/webfonts/fa-brands-400.woff2">
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= “viewport” content=”width=device-width, user-scalable=no” />
     <!-- CSS
     ================================================== -->
     <!--<link rel="preload" href="css/all-css.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -32,6 +32,7 @@
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js" defer></script>
+    <script>navigator.serviceWorker && navigator.serviceWorker.register(‘./sw.js’).then(function(registration) {  console.log(‘Excellent, registered with scope: ‘, registration.scope);});</script>
     <!-- favicons
     ================================================== -->
 
@@ -40,7 +41,7 @@
     ================================================== -->
     <!--> PWA
     -->
-  
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168801679-1" defer></script>
