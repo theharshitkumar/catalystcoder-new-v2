@@ -22,9 +22,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS
     ================================================== -->
-
-    <link rel="stylesheet"    href="css/all-css.css">
-      <!--<link rel="stylesheet" href="css/base.css">
+    <link rel="preload" href="css/all-css.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/all-css.css"></noscript>
+    <!--<link rel="stylesheet"    href="css/all-css.css">
+      <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/custom.css">
